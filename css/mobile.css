@@ -231,13 +231,13 @@ main {
   width: 80%;
   min-width: fit-content;
   max-width: fit-content;
-  margin-top: 25px;
+  margin-top: 32px;
   margin-left: auto;
   margin-right: auto;
   padding: 8px;
   font-size: 1.2rem;
   background-color: var(--soft-orange);
-  border-radius: 4px;
+  border-radius: 6px;
 }
 
 .currency-table--date p {
@@ -247,17 +247,17 @@ main {
 .main-product-detail {
   height: auto;
   width: 100%;
-  padding-top: 64px;
-  padding-bottom: 64px;
+  padding-top: 40px;
+  padding-bottom: 45px;
   color: var(--white);
   background-color: var(--warm-black);
 }
 
 .main-product-detail .bata-icon {
-  display: block;
+  display: flex;
   position: relative;
   margin: 0 auto;
-  top: -78px;
+  top: -50px;
   height: 25px;
   width: 43px;
   background-image: url("../assets/icons/batata.svg");
@@ -296,6 +296,8 @@ main {
 
 .product-cards--container .product-detail--card {
   width: 85%;
+  min-width: 288px;
+  max-width: 350px;
   height: auto;
   margin-top: 15px;
   margin-left: auto;
@@ -363,4 +365,164 @@ main {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.bitcoin-img-container {
+  width: 100%;
+  min-width: 320px;
+  height: 50vh;
+  background-image: url("../assets/imgs/woman-bckgrd.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.bitcoin-img-container h2 {
+  padding-top: 60px;
+  font-weight: bold;
+  font-size: 2.4rem;
+  line-height: 2.6rem;
+  color: var(--white);
+}
+
+.main-plans-container {
+  width: 100%;
+  height: auto;
+  min-width: 320px;
+  padding-bottom: 60px;
+  text-align: center;
+  background-color: var(--off-whiite);
+}
+
+.plans-container--intro {
+  width: 85%;
+  min-width: 288px;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.plans-container--intro h2 {
+  padding-top: 40px;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 2.6rem;
+  color: var(--black);
+}
+
+.plans-container--intro p {
+  padding-top: 24px;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: var(--grey);
+}
+
+.plans-container--slider {
+  display: flex;
+  height: auto;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+}
+
+.plans-container--card {
+  position: relative;
+  scroll-snap-align: center;
+  width: 70%;
+  min-width: 230px;
+  max-width: 300px;
+  height: auto;
+  margin: 40px 0 0 30px;
+  padding: 15px;
+  background-color: var(--white);
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+}
+
+.recomended {
+  position: absolute;
+  top: -15px;
+  left: calc(50% - 48px);
+  padding: 8px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  text-decoration: none;
+  color: var(--white);
+  background-color: var(--bitcoin-orange);
+  border-radius: 8px;
+}
+
+.lifetime {
+  background-color: var(--warm-black);
+}
+
+.lifetime .plan-card--title {
+  color: var(--white);
+}
+
+.lifetime .plan-card--price {
+  color: var(--white);
+}
+
+.plan-card--title {
+  padding-top: 10px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: var(--black);
+}
+
+.plan-card--price {
+  padding: 5px 0px;
+  font-family: "Inter", sans-serif;
+  font-size: 5.2rem;
+  line-height: 5.2rem;
+  font-weight: bold;
+}
+
+.plan-card--price span {
+  font-size: 1.4rem;
+  font-weight: normal;
+  vertical-align: text-top;
+}
+
+.plan-card--saving {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 15px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: var(--grey);
+}
+
+.plan-card--cta {
+  width: 80%;
+  margin-top: 15px;
+  padding: 15px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  font-weight: 700;
+  border-radius: 4px;
+  color: var(--black);
+  background-color: var(--soft-orange);
+  border: 3px solid var(--bitcoin-orange);
+}
+
+.plan-card--cta span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  padding: auto;
+  background-image: url("../assets/icons/orange-right-arrow.svg");
+  background-size: cover;
+  background-position: center;
+  vertical-align: text-bottom;
 }
