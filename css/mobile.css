@@ -111,7 +111,7 @@ main {
 
 .main-exchange-container--background-img img {
   width: 70%;
-  max-width: 315px;
+  max-width: 265px;
   margin-bottom: 30px;
 }
 
@@ -370,7 +370,7 @@ main {
 .bitcoin-img-container {
   width: 100%;
   min-width: 320px;
-  height: 50vh;
+  height: 30vh;
   background-image: url("https://i.imgur.com/7HRB57e.jpg");
   background-position: center;
   background-size: cover;

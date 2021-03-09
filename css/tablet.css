@@ -1,0 +1,30 @@
+.main-exchange-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.main-exchange-container--background-img img {
+  width: 315px;
+  margin: auto;
+}
+
+.main-exchange-container--title {
+  margin: auto;
+}
+
+.product-cards--container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.product-cards--container .product-detail--card {
+  margin: 8px;
+}
+.plans-container--slider {
+  justify-content: center;
+}
